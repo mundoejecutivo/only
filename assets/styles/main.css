@@ -34,18 +34,15 @@ nav{
     padding: 0%;
 }
 
-
 ul{
     margin: 0%;
     padding: 0%;
 }
 
-
 header{
     margin: 0%;
     padding: 0%;
 }
-
 
 li{
     margin: 0%;
@@ -406,6 +403,47 @@ li{
     height: auto;
 }
 
+.contenedor_eventos{
+    width: 725px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.texto_titulo_eventos{
+    color: #171717;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+}
+
+.texto_descripcion_eventos{
+    color: #171717;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.contenedor_eventos_texto{
+    width: 725px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 25px 25px;
+    background-color: #ffffff;
+}
+
 .contenedor_tarjetas_universal{
     background-color: #ffffff;
     width: auto;
@@ -444,7 +482,7 @@ li{
 }
 
 .tarjetas_universal_3{
-    width: 725px;
+    width: calc(725px - 50px);
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -704,7 +742,6 @@ li{
 
 .texto_404{
     color: #171717;
-    font-size: 30px;
     font-weight: 600;
     font-style: normal;
     font-variation-settings:"slnt" 0;
@@ -958,6 +995,14 @@ li{
     height: 800px;
 }
 
+.texto_enlace_tarjeta:link{
+    color: #171717;
+}
+
+.texto_enlace_tarjeta:visited{
+    color: #171717;
+}
+
 .texto_enlace_tarjeta:hover{
     color: #E42722;
 }
@@ -968,14 +1013,6 @@ li{
 
 .texto_enlace_tarjeta:focus{
     color: #E42722;
-}
-
-.texto_enlace_tarjeta:link{
-    color: #171717;
-}
-
-.texto_enlace_tarjeta:visited{
-    color: #171717;
 }
 
 .texto_enlace_tarjeta_2{
@@ -997,6 +1034,14 @@ li{
     transition: 0.25s;
 }
 
+.texto_enlace_tarjeta_2:link{
+    color: #ffffff;
+}
+
+.texto_enlace_tarjeta_2:visited{
+    color: #ffffff;
+}
+
 .texto_enlace_tarjeta_2:hover{
     color: #E42722;
 }
@@ -1007,14 +1052,6 @@ li{
 
 .texto_enlace_tarjeta_2:focus{
     color: #E42722;
-}
-
-.texto_enlace_tarjeta_2:link{
-    color: #ffffff;
-}
-
-.texto_enlace_tarjeta_2:visited{
-    color: #ffffff;
 }
 
 .tarjetas_universal:hover .imagen_tarjeta_universal {
@@ -1274,6 +1311,10 @@ li{
         height: auto;
     }
 
+    .texto_404{
+        font-size: 30px;
+    }
+
     .tarjetas_universal_2{
         width: 100%;
         height: auto;
@@ -1362,6 +1403,10 @@ li{
     .texto_titulo_bienvenida{
         font-size: 23px;
     }
+
+    .imagen_404{
+        width: 30%;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 599px){
@@ -1369,6 +1414,14 @@ li{
         width: 100%;
         min-width: 0px;
         height: auto;
+    }
+
+    .imagen_404{
+        width: 30%;
+    }
+
+    .texto_404{
+        font-size: 30px;
     }
 
     .tarjetas_universal_2{
@@ -1458,6 +1511,14 @@ li{
         width: 100%;
         min-width: 0px;
         height: auto;
+    }
+
+    .texto_404{
+        font-size: 30px;
+    }
+
+    .imagen_404{
+        width: 30%;
     }
 
     .tarjetas_universal_2{
@@ -1551,6 +1612,14 @@ li{
         height: auto;
     }
 
+    .texto_404{
+        font-size: 30px;
+    }
+
+    .imagen_404{
+        width: 30%;
+    }
+
     .tarjetas_universal_2{
         width: 100%;
         height: auto;
@@ -1640,6 +1709,14 @@ li{
         width: 100%;
         min-width: 0px;
         height: auto;
+    }
+
+    .imagen_404{
+        width: 30%;
+    }
+
+    .texto_404{
+        font-size: 30px;
     }
 
     .tarjetas_universal_2{
