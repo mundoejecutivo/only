@@ -51,6 +51,16 @@ document.getElementById('id_contenedor_titulo_5').style.width = anchoContenedorT
 
 var anchoContenedorTarjetas3 = document.getElementById('id_contenedor_tarjetas_universal_6').offsetWidth;
 document.getElementById('id_contenedor_titulo_6').style.width = anchoContenedorTarjetas3 + 'px';
+
+
+
+var anchoContenedorTarjetas7 = document.getElementById('id_contenedor_tarjetas_universal_7').offsetWidth;
+document.getElementById('id_contenedor_titulo_7').style.width = anchoContenedorTarjetas7 + 'px';
+
+
+
+var anchoContenedorTarjetas10 = document.getElementById('id_contenedor_tarjetas_universal_10').offsetWidth;
+document.getElementById('id_contenedor_titulo_10').style.width = anchoContenedorTarjetas10 + 'px';
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* CÓDIGO PARA QUE EL WIDTH DEL CONTENEDOR DEL TITULO DE CADA SECCIÓN SIEMPRE SEA EL MISMO DEL CONTENEDOR DE LAS TARJETAS UNIVERSALES |  FINAL */
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
